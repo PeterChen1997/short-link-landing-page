@@ -1,18 +1,18 @@
 🌍 *[英文](README.md) ∙ [简体中文](README-zh.md)*
 
-# [Landing page boilerplate](https://landingpage.weijunext.com/)
+# [Landing page boilerplate](https://www.linkp.fun/)
 
 一个开源、免费、设计精美的落地页模板，它完全使用公共图标、文字和代码实现，0设计资源，适合不擅长UI设计的个人和团队，改改图标和文字就可以发布自己的产品落地页。
 
-演示地址：https://landingpage.weijunext.com
+演示地址：https://www.linkp.fun
 
-正在使用此模板？来 [Showcase](https://landingpage.weijunext.com/#Showcase) 中展示你的网站！通过 [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) 提交，免费获得 dofollow 外链。
+正在使用此模板？来 [Showcase](https://www.linkp.fun/#Showcase) 中展示你的网站！通过 [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) 提交，免费获得 dofollow 外链。
 
 文章: 
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
 [我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
 
-[![Landing page boilerplate](./public/og.png)](https://landingpage.weijunext.com/)
+[![Landing page boilerplate](./public/og.png)](https://www.linkp.fun/)
 
 
 ## 技术栈
@@ -48,7 +48,7 @@ npm run dev
 
 使用 Vercel 或 Zeabur 部署：
 
-[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://landingpage.weijunext.com&demo-image=https://landingpage.weijunext.com/og.png)
+[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://www.linkp.fun&demo-image=https://www.linkp.fun/og.png)
 
 
 

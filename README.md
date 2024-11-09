@@ -1,19 +1,19 @@
 🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
 
 
-# [Landing page boilerplate](https://landingpage.weijunext.com/)
+# [Landing page boilerplate](https://www.linkp.fun/)
 
 An open-source, free, and beautifully designed landing page template. By simply replacing or adjusting the icons and text, you can publish your own product landing page.
 
-Demo address：https://landingpage.weijunext.com
+Demo address：https://www.linkp.fun
 
-Used this template? Get featured in [our Showcase](https://landingpage.weijunext.com/#Showcase)! Submit your site via [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) for a free dofollow link.
+Used this template? Get featured in [our Showcase](https://www.linkp.fun/#Showcase)! Submit your site via [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) for a free dofollow link.
 
 Blog: 
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
 [我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
 
-[![Landing page boilerplate](./public/og.png)](https://landingpage.weijunext.com/)
+[![Landing page boilerplate](./public/og.png)](https://www.linkp.fun/)
 
 ## Tech Stack 
 
@@ -51,7 +51,7 @@ Edit these files:
 
 Deploy the example using Vercel or Zeabur:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://landingpage.weijunext.com&demo-image=https://landingpage.weijunext.com/og.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://www.linkp.fun&demo-image=https://www.linkp.fun/og.png)
 
 
 

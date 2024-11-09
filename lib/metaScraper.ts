@@ -1,4 +1,4 @@
-import { JSDOM } from 'jsdom';
+import { JSDOM } from "jsdom";
 
 interface ScraperOptions {
   timeout?: number;
@@ -26,15 +26,19 @@ const defaultOptions: Required<ScraperOptions> = {
   timeout: 10000,
   maxRedirects: 5,
   headers: {
-    'User-Agent': 'ModernMetaScraper/1.0 (+https://landingpage.weijunext.com/; weijunext@gmail.com)'
+    "User-Agent":
+      "ModernMetaScraper/1.0 (+https://www.linkp.fun/; weijunext@gmail.com)",
   },
 };
 
 export function createModernMetaScraper(options: ScraperOptions = {}) {
-  const scrapeOptions: Required<ScraperOptions> = { ...defaultOptions, ...options };
+  const scrapeOptions: Required<ScraperOptions> = {
+    ...defaultOptions,
+    ...options,
+  };
 
   async function scrapeMultiple(inputs: UrlInput[]): Promise<ScrapedData[]> {
-    return Promise.all(inputs.map(input => scrapeOrUseProvided(input)));
+    return Promise.all(inputs.map((input) => scrapeOrUseProvided(input)));
   }
 
   async function scrapeOrUseProvided(input: UrlInput): Promise<ScrapedData> {
@@ -61,15 +65,17 @@ export function createModernMetaScraper(options: ScraperOptions = {}) {
     try {
       normalizedUrl = await normalizeUrl(url);
     } catch (error) {
-      console.error(`Error normalizing URL ${url}: ${(error as Error).message}`);
+      console.error(
+        `Error normalizing URL ${url}: ${(error as Error).message}`
+      );
       throw error;
     }
 
     try {
       const response = await fetch(normalizedUrl, {
-        method: 'GET',
+        method: "GET",
         headers: scrapeOptions.headers,
-        redirect: 'follow',
+        redirect: "follow",
       });
 
       if (!response.ok) {
@@ -88,7 +94,9 @@ export function createModernMetaScraper(options: ScraperOptions = {}) {
         og: extractOgImage(document, normalizedUrl),
       };
     } catch (error) {
-      console.error(`Error scraping ${normalizedUrl}: ${(error as Error).message}`);
+      console.error(
+        `Error scraping ${normalizedUrl}: ${(error as Error).message}`
+      );
       throw error;
     }
   }
@@ -101,51 +109,74 @@ export function createModernMetaScraper(options: ScraperOptions = {}) {
 
 function normalizeUrl(url: string): string {
   // 匹配有效的URL格式
-  const urlPattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/i;
+  const urlPattern =
+    /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/i;
 
   if (!urlPattern.test(url)) {
     throw new Error("Invalid URL format");
   }
 
   // 如果URL没有协议,添加 'https://'
-  if (!url.startsWith('http://') && !url.startsWith('https://')) {
-    url = 'http://' + url;
+  if (!url.startsWith("http://") && !url.startsWith("https://")) {
+    url = "http://" + url;
   }
 
   return url;
 }
 
 function extractTitle(document: Document): string {
-  return document.querySelector('title')?.textContent ||
-    document.querySelector('meta[property="og:title"]')?.getAttribute('content') ||
-    document.querySelector('meta[name="twitter:title"]')?.getAttribute('content') ||
-    document.querySelector('h1')?.textContent ||
-    '';
+  return (
+    document.querySelector("title")?.textContent ||
+    document
+      .querySelector('meta[property="og:title"]')
+      ?.getAttribute("content") ||
+    document
+      .querySelector('meta[name="twitter:title"]')
+      ?.getAttribute("content") ||
+    document.querySelector("h1")?.textContent ||
+    ""
+  );
 }
 
 function extractDescription(document: Document): string {
-  return document.querySelector('meta[name="description"]')?.getAttribute('content') ||
-    document.querySelector('meta[property="og:description"]')?.getAttribute('content') ||
-    document.querySelector('meta[name="twitter:description"]')?.getAttribute('content') ||
-    document.querySelector('p')?.textContent ||
-    '';
+  return (
+    document
+      .querySelector('meta[name="description"]')
+      ?.getAttribute("content") ||
+    document
+      .querySelector('meta[property="og:description"]')
+      ?.getAttribute("content") ||
+    document
+      .querySelector('meta[name="twitter:description"]')
+      ?.getAttribute("content") ||
+    document.querySelector("p")?.textContent ||
+    ""
+  );
 }
 
 function extractLogo(document: Document, baseUrl: string): string {
-  const logoUrl = document.querySelector('link[rel="icon"]')?.getAttribute('href') ||
-    document.querySelector('link[rel="shortcut icon"]')?.getAttribute('href') ||
-    document.querySelector('meta[property="og:image"]')?.getAttribute('content') ||
-    '/favicon.ico';
+  const logoUrl =
+    document.querySelector('link[rel="icon"]')?.getAttribute("href") ||
+    document.querySelector('link[rel="shortcut icon"]')?.getAttribute("href") ||
+    document
+      .querySelector('meta[property="og:image"]')
+      ?.getAttribute("content") ||
+    "/favicon.ico";
 
   return new URL(logoUrl, baseUrl).href;
 }
 
 function extractOgImage(document: Document, baseUrl: string): string {
-  const ogImage = document.querySelector('meta[property="og:image"]')?.getAttribute('content') ||
-    document.querySelector('meta[name="twitter:image"]')?.getAttribute('content') ||
-    '';
+  const ogImage =
+    document
+      .querySelector('meta[property="og:image"]')
+      ?.getAttribute("content") ||
+    document
+      .querySelector('meta[name="twitter:image"]')
+      ?.getAttribute("content") ||
+    "";
 
-  return ogImage ? new URL(ogImage, baseUrl).href : '';
+  return ogImage ? new URL(ogImage, baseUrl).href : "";
 }
 
 export type ModernMetaScraper = ReturnType<typeof createModernMetaScraper>;
