@@ -25,7 +25,7 @@ const baseSiteConfig = {
     {
       name: "Link Fun Team",
       url: "https://www.linkp.fun",
-      twitter: "https://twitter.com/linkfun_hq",
+      twitter: "https://x.com/Peter_s_sun",
     },
   ],
   creator: "@linkfun_hq",
@@ -34,7 +34,7 @@ const baseSiteConfig = {
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
-  nextThemeColor: "dark",
+  nextThemeColor: "system",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
@@ -52,7 +52,7 @@ const baseSiteConfig = {
     // { name: "Support", href: "mailto:support@linkp.fun", icon: MdEmail },
     // {
     //   name: "Twitter",
-    //   href: "https://twitter.com/linkfun_hq",
+    //   href: "https://x.com/Peter_s_sun",
     //   icon: BsTwitterX,
     // },
     // { name: "GitHub", href: OPEN_SOURCE_URL, icon: BsGithub },

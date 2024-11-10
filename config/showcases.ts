@@ -11,8 +11,8 @@ const ENV_SHOWCASE_LIST =
 
 export const showcases = [
   {
-    // title: 'Landing Page Boilerplate',
-    // description: 'A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.',
+    // title: 'Link Fun',
+    // description: 'A free, open-source, and powerful link fun, ideal for various projects, enabling you to create a landing page in under an hour.',
     url: "https://www.linkp.fun",
     // logo: '',
     // og: 'https://www.linkp.fun/og.png'
@@ -24,3 +24,4 @@ export const showcases = [
     url: "https://regeai.com/",
   },
 ].concat(ENV_SHOWCASE_LIST);
+

@@ -1,6 +1,6 @@
 🌍 *[英文](README.md) ∙ [简体中文](README-zh.md)*
 
-# [Landing page boilerplate](https://www.linkp.fun/)
+# [link fun](https://www.linkp.fun/)
 
 一个开源、免费、设计精美的落地页模板，它完全使用公共图标、文字和代码实现，0设计资源，适合不擅长UI设计的个人和团队，改改图标和文字就可以发布自己的产品落地页。
 
@@ -12,12 +12,12 @@
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
 [我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
 
-[![Landing page boilerplate](./public/og.png)](https://www.linkp.fun/)
+[![link fun](./public/og.png)](https://www.linkp.fun/)
 
 
 ## 技术栈
 
-Landing page boilerplate 基于以下技术栈构建：
+link fun 基于以下技术栈构建：
 
 - Next.js – 前端
 - TailwindCSS – 样式
@@ -60,7 +60,7 @@ npm run dev
 
 [博客](https://weijunext.com)  
 [Github](https://github.com/weijunext)  
-[Twitter/X](https://twitter.com/weijunext)  
+[Twitter/X](https://x.com/Peter_s_sun)  
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  

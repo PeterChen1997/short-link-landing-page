@@ -27,7 +27,7 @@ const defaultOptions: Required<ScraperOptions> = {
   maxRedirects: 5,
   headers: {
     "User-Agent":
-      "ModernMetaScraper/1.0 (+https://www.linkp.fun/; weijunext@gmail.com)",
+      "ModernMetaScraper/1.0 (+https://www.linkp.fun/; 13093023233@163.com)",
   },
 };
 
@@ -180,3 +180,4 @@ function extractOgImage(document: Document, baseUrl: string): string {
 }
 
 export type ModernMetaScraper = ReturnType<typeof createModernMetaScraper>;
+

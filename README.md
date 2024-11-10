@@ -1,7 +1,7 @@
 🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
 
 
-# [Landing page boilerplate](https://www.linkp.fun/)
+# [link fun](https://www.linkp.fun/)
 
 An open-source, free, and beautifully designed landing page template. By simply replacing or adjusting the icons and text, you can publish your own product landing page.
 
@@ -13,11 +13,11 @@ Blog:
 [我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
 [我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
 
-[![Landing page boilerplate](./public/og.png)](https://www.linkp.fun/)
+[![link fun](./public/og.png)](https://www.linkp.fun/)
 
 ## Tech Stack 
 
-Landing page boilerplate is built on the following stack:
+link fun is built on the following stack:
 
 - Next.js – Frontend/Backend
 - TailwindCSS – Styles
@@ -63,7 +63,7 @@ Deploy the example using Vercel or Zeabur:
 
 [My Blog](https://weijunext.com)  
 [Github](https://github.com/weijunext)  
-[Twitter/X](https://twitter.com/weijunext)  
+[Twitter/X](https://x.com/Peter_s_sun)  
 [Twitter/X - En](https://twitter.com/wayne_dev)  
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  

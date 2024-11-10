@@ -1,78 +1,80 @@
-import { LucideIcon, MagnetIcon } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { BsGithub } from "react-icons/bs";
-import { FaToolbox } from "react-icons/fa";
-import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
-import { MdCloudUpload } from "react-icons/md";
+import { BsPlugin } from "react-icons/bs";
+import { FaTools } from "react-icons/fa";
+import { IoShieldCheckmark } from "react-icons/io5";
+import { MdOutlineQrCode } from "react-icons/md";
+import { RiRobot2Fill, RiTeamLine } from "react-icons/ri";
 
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    title: "Smart Analytics",
+    content:
+      "Real-time tracking of link clicks, traffic sources, and geographical distribution for data-driven marketing decisions.",
+    icon: RiRobot2Fill,
   },
   {
-    title: "Responsive Design",
+    title: "Team Workspace",
     content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
+      "Comprehensive team permissions and workspace management for more organized and efficient link management.",
+    icon: RiTeamLine,
   },
   {
-    title: "Easy Customization",
+    title: "Developer-Friendly",
     content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
+      "Powerful API support and easy-to-use SDKs for quick integration into your workflow.",
+    icon: BsPlugin,
   },
   {
-    title: "SEO Optimized",
+    title: "Smart QR Studio",
     content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
-    icon: MagnetIcon,
+      "Customizable dynamic QR codes with scan tracking and visitor analytics.",
+    icon: MdOutlineQrCode,
   },
   {
-    title: "One-Click Deployment",
+    title: "Link Shield",
     content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+      "Built-in multi-layer security features including anti-phishing and tampering protection to keep your links secure.",
+    icon: IoShieldCheckmark,
   },
   {
-    title: "Globalization Support",
-    content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
+    title: "Custom Domains",
+    content: "Connect your own domain to build a stronger brand presence.",
+    icon: FaTools,
   },
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    title: "智能分析",
+    content:
+      "实时追踪链接点击、访问来源、地理分布等关键数据，助力精准营销决策。",
+    icon: RiRobot2Fill,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    title: "团队协作",
+    content: "完善的团队权限管理和工作空间，让链接管理更有序、更高效。",
+    icon: RiTeamLine,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    title: "开发者友好",
+    content: "强大的API支持，简单易用的SDK，助力开发者快速集成。",
+    icon: BsPlugin,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    title: "智能二维码",
+    content: "可自定义的动态二维码，支持追踪扫码数据和访问分析。",
+    icon: MdOutlineQrCode,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "安全防护",
+    content: "内置防钓鱼、防篡改等多重安全机制，保护您的链接安全。",
+    icon: IoShieldCheckmark,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
+    title: "自定义域名",
+    content: "支持绑定自有域名，打造专属品牌形象。",
+    icon: FaTools,
   },
 ];
 
@@ -80,32 +82,35 @@ export const FEATURES_JA = [
   {
     title: "オープンソースの利点",
     content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
+    icon: RiRobot2Fill,
   },
   {
     title: "レスポンシブデザイン",
-    content: "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    icon: FaMobileScreenButton,
+    content:
+      "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
+    icon: RiTeamLine,
   },
   {
     title: "簡単カスタマイズ",
     content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    icon: FaToolbox,
+    icon: BsPlugin,
   },
   {
     title: "SEO最適化",
-    content: "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    icon: MagnetIcon,
+    content:
+      "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
+    icon: MdOutlineQrCode,
   },
   {
     title: "ワンクリックデプロイメント",
-    content: "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    icon: MdCloudUpload,
+    content:
+      "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
+    icon: IoShieldCheckmark,
   },
   {
     title: "グローバリゼーションサポート",
     content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    icon: FaEarthAsia,
+    icon: FaTools,
   },
 ];
 
@@ -113,65 +118,74 @@ export const FEATURES_AR = [
   {
     title: "ميزة المصدر المفتوح",
     content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    icon: BsGithub,
+    icon: RiRobot2Fill,
   },
   {
     title: "تصميم متجاوب",
     content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    icon: FaMobileScreenButton,
+    icon: RiTeamLine,
   },
   {
     title: "تخصيص سهل",
-    content: "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    icon: FaToolbox,
+    content:
+      "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
+    icon: BsPlugin,
   },
   {
     title: "مُحسّن لمحركات البحث",
-    content: "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
-    icon: MagnetIcon,
+    content:
+      "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
+    icon: MdOutlineQrCode,
   },
   {
     title: "نشر بنقرة واحدة",
-    content: "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    icon: MdCloudUpload,
+    content:
+      "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
+    icon: IoShieldCheckmark,
   },
   {
     title: "دعم العولمة",
     content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
-    icon: FaEarthAsia,
+    icon: FaTools,
   },
 ];
 
 export const FEATURES_ES = [
   {
     title: "Ventaja del Código Abierto",
-    content: "Completamente gratuito con una riqueza de opciones de personalización.",
-    icon: BsGithub,
+    content:
+      "Completamente gratuito con una riqueza de opciones de personalización.",
+    icon: RiRobot2Fill,
   },
   {
     title: "Diseño Responsivo",
-    content: "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    icon: FaMobileScreenButton,
+    content:
+      "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
+    icon: RiTeamLine,
   },
   {
     title: "Personalización Fácil",
-    content: "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    icon: FaToolbox,
+    content:
+      "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
+    icon: BsPlugin,
   },
   {
     title: "Optimizado para SEO",
-    content: "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
-    icon: MagnetIcon,
+    content:
+      "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
+    icon: MdOutlineQrCode,
   },
   {
     title: "Despliegue con Un Clic",
-    content: "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    icon: MdCloudUpload,
+    content:
+      "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
+    icon: IoShieldCheckmark,
   },
   {
     title: "Soporte de Globalización",
-    content: "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
-    icon: FaEarthAsia,
+    content:
+      "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
+    icon: FaTools,
   },
 ];
 
@@ -179,32 +193,37 @@ export const FEATURES_RU = [
   {
     title: "Преимущество Открытого Исходного Кода",
     content: "Полностью бесплатно с широкими возможностями настройки.",
-    icon: BsGithub,
+    icon: RiRobot2Fill,
   },
   {
     title: "Адаптивный Дизайн",
-    content: "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    icon: FaMobileScreenButton,
+    content:
+      "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
+    icon: RiTeamLine,
   },
   {
     title: "Легкая Настройка",
-    content: "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    icon: FaToolbox,
+    content:
+      "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
+    icon: BsPlugin,
   },
   {
     title: "Оптимизировано для Поисковых Систем",
-    content: "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
-    icon: MagnetIcon,
+    content:
+      "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
+    icon: MdOutlineQrCode,
   },
   {
     title: "Развертывание в Один Клик",
-    content: "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    icon: MdCloudUpload,
+    content:
+      "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
+    icon: IoShieldCheckmark,
   },
   {
     title: "Поддержка Глобализации",
-    content: "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
-    icon: FaEarthAsia,
+    content:
+      "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
+    icon: FaTools,
   },
 ];
 
@@ -222,5 +241,6 @@ export const ALL_FEATURES: FeaturesCollection = {
   FEATURES_JA,
   FEATURES_AR,
   FEATURES_ES,
-  FEATURES_RU
-}
+  FEATURES_RU,
+};
+

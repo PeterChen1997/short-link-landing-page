@@ -97,6 +97,7 @@ const Pricing = ({
             href={siteConfig.authors[0].twitter}
             underline="always"
             rel="noopener noreferrer nofollow"
+            target="__blank"
           >
             {locale.follow}
           </Link>
@@ -107,3 +108,4 @@ const Pricing = ({
 };
 
 export default Pricing;
+

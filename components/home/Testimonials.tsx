@@ -32,7 +32,7 @@ const Testimonials = ({ id, locale }: { id: string; locale: any }) => {
           {locale.description3}
         </p>
       </div>
-      <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 overflow-hidden relative transition-all">
+      <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 overflow-hidden relative transition-all [&:has(>:only-child)]:flex">
         {TestimonialsData.map((testimonial, index) => (
           <div className="mb-4 z-0 break-inside-avoid-column" key={index}>
             <div className="border border-slate/10 rounded-lg p-4 flex flex-col items-start gap-3 h-fit">
@@ -72,3 +72,4 @@ const Testimonials = ({ id, locale }: { id: string; locale: any }) => {
 };
 
 export default Testimonials;
+

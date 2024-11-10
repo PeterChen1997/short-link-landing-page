@@ -1,12 +1,12 @@
 {
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
-    "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "title1": "",
+    "title2": "快速、安全、智能",
+    "title3": "的短链接管理平台",
+    "description": "专为中国市场优化的链接管理平台。将冗长的网址转化为强大的营销工具，提供实时分析、团队协作和企业级安全保障。快速、稳定、智能 - 因为每一次点击都重要。"
   },
   "SocialProof": {
-    "maker": "制作者快速开发"
+    "maker": "使用方法"
   },
   "Showcase": {
     "title": "Showcase",
@@ -18,13 +18,13 @@
   "Pricing": {
     "title": "定价",
     "title2": "拥有无限访问权限",
-    "description": "你当前查看的页面是一个开源的、免费的模板。",
-    "doYouLike": "你喜欢这个落地页模板吗？",
+    "description": "你当前查看的页面是一个开源的、免费的工具。",
+    "doYouLike": "你喜欢这个工具吗？",
     "follow": "关注我的推特。"
   },
   "Testimonials": {
     "title": "Testimonials",
-    "description1": "如果你使用这个落地页模板并在推特上推荐了，",
+    "description1": "如果你使用这个工具并在推特上推荐了，",
     "description2": "请告诉我",
     "description3": "，我会在这里展示你的推文和推荐。"
   },
@@ -33,15 +33,16 @@
     "description": "这里有一些最常见的问题。"
   },
   "CTA": {
-    "title": "立即构建你的落地页",
+    "title": "立即构建你的短链吧",
     "description1": "构建",
-    "description2": "你的落地页，",
+    "description2": "你的短链，",
     "description3": "展示",
     "description4": "你的产品，并开始",
-    "description5": "赚取收入",
+    "description5": "享受生活",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "获取模板"
+    "title": "试一试"
   }
 }
+
