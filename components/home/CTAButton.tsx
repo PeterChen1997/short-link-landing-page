@@ -5,7 +5,7 @@ import Link from "next/link";
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
-      href="https://github.com/PeterChen1997/short-link-landing-page"
+      href="https://welcome.linkp.fun"
       target="_blank"
       rel="noopener noreferrer nofollow"
     >
